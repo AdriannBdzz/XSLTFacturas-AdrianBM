@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="facturaxslt1.xslt"?>
+<Facturae xmlns:fe="http://www.facturae.es/Facturae/2009/v3.2/">
+    <FileHeader>
+        <SchemaVersion>3.2.2</SchemaVersion>
+        <Modality>I</Modality>
+        <InvoiceIssuerType>EM</InvoiceIssuerType>
+    </FileHeader>
+    <Parties>
+        <SellerParty>
+            <PartyName>
+                <Name>Apple Store Online</Name>
+            </PartyName>
+            <TaxIdentification>
+                <TaxIdentificationNumber>ESA12345678</TaxIdentificationNumber>
+            </TaxIdentification>
+        </SellerParty>
+        <BuyerParty>
+            <PartyName>
+                <Name>Adrián Bermúdez Muñón</Name>
+            </PartyName>
+            <TaxIdentification>
+                <TaxIdentificationNumber>34329351B</TaxIdentificationNumber>
+            </TaxIdentification>
+        </BuyerParty>
+    </Parties>
+    <Invoices>
+        <Invoice>
+            <InvoiceIssueDate>2025-02-23</InvoiceIssueDate>
+            <InvoiceTotalAmount>38500.00</InvoiceTotalAmount>
+            <InvoiceCurrencyCode>EUR</InvoiceCurrencyCode>
+            <Items>
+                <InvoiceLine>
+                    <ItemDescription>MacBook Pro 14" M2</ItemDescription>
+                    <Quantity>10</Quantity>
+                    <UnitPriceWithoutTax>2200.00</UnitPriceWithoutTax>
+                    <TotalCost>22000.00</TotalCost>
+                </InvoiceLine>
+                <InvoiceLine>
+                    <ItemDescription>Apple Pro Display XDR</ItemDescription>
+                    <Quantity>3</Quantity>
+                    <UnitPriceWithoutTax>1500.00</UnitPriceWithoutTax>
+                    <TotalCost>4500.00</TotalCost>
+                </InvoiceLine>
+                <InvoiceLine>
+                    <ItemDescription>Apple Magic Keyboard</ItemDescription>
+                    <Quantity>4</Quantity>
+                    <UnitPriceWithoutTax>150.00</UnitPriceWithoutTax>
+                    <TotalCost>600.00</TotalCost>
+                </InvoiceLine>
+                <InvoiceLine>
+                    <ItemDescription>Apple Magic Mouse</ItemDescription>
+                    <Quantity>7</Quantity>
+                    <UnitPriceWithoutTax>100.00</UnitPriceWithoutTax>
+                    <TotalCost>700.00</TotalCost>
+                </InvoiceLine>
+            </Items>
+        </Invoice>
+    </Invoices>
+</Facturae>
